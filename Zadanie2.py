@@ -7,10 +7,10 @@ mx = 0
 mn = 0
 s = 0
 if x > y:
-    mx = pow(x, 2), y
+    mx = pow(x, 2)*y
     mn = x - y
 else:
-    mx = x, pow(y, 2)
+    mx = x * pow(y, 2)
     mn = x + 2 * y
-    s = mx + mn
+    s = mn
     print(s)
